@@ -1,0 +1,14 @@
+header {
+  background: url("pizza.jpg");
+  background-size: cover;
+}
+h1 {
+  color: white;
+}
+img {
+height: 500px;
+width: 500px;
+}
+a {
+  color: black;
+}
