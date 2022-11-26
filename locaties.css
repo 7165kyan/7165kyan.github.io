@@ -1,5 +1,14 @@
+@keyframes example {
+  from {background: url("pizza.jpg");}
+  to {background: url("pizza3.jpg");}
+}
 body {
   margin: 0;
+  background: url("pizza.jpg");
+  animation-name: example;
+  animation-duration: 4s;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 h1 {
   color: Green;
