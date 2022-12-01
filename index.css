@@ -1,8 +1,11 @@
 
 body {
   margin: 0;
-  background-color: rgba(100,100,100,0.2);
 }
+.onderkant {
+	background-color: rgba(100,100,100,0.3);
+	height: 50px;
+	bottom: 0;
 header {
   background: url("pizza.jpg");
   background-repeat: no-repeat;
@@ -51,7 +54,7 @@ header {
   margin: 0;
 }
 ul {
-  background-color: rgba(100,100,100,0.2);
+  background-color: rgba(100,100,100,0.3);
   list-style-type: none;
   margin: 0;
   padding: 0;
