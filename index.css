@@ -7,7 +7,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
-  position: relative;
   padding: 0;
   margin: 0;
   animation-name: achtergrond;
@@ -43,34 +42,60 @@ header {
 	  }
 }
 .logo {
-  width: 40%;
   height: 40%;
-  float: left;
-  bottom: 0;
-  margin: 0;
+  margin-top: 40px;
 }
-ul {
-  background-color: rgba(0,255,0,0.2);
+.titel {
+  margin-top: 0;
+  margin-left: 30px;
+  color: rgb(15,120,15);
+  text-shadow: 2px 2px #FF0000;
+  }
+ .homepagina {
+ max-width: 50%;
+ margin-left: 40px;
+ }
+ .homepagina2 {
+ line-height: 25px;
+ }
+ .einde {
+ height: 100px;
+ margin: 0;
+ padding: 10px;
+   text-align: center;
+ }
+ .titel-einde {
+  margin-top: 0;
+  font-size: 20px;
+  color: rgb(15,120,15);
+  text-shadow: 2px 2px #FF0000;
+
+ }
+ .text-einde {
+  margin:0;
+ }
+.balk {
+  background-color: rgb(0,0,0);
   list-style-type: none;
   margin: 0;
   padding: 0;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 26px;
+  height: 27px;
 }
 li a {
   width: 60px;
-  color: rgb(255,0,0);
+  color: rgb(255,255,255);
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
 }
 li a:hover {
-  color: white;
+  color: rgb(200,200,200);
 }
 li a.active {
-  background-color: rgba(0,255,0,0.6);
+  background-color: rgb(15,120,15);
 }
 li {
   display: inline;
@@ -85,8 +110,40 @@ table, th, td {
   border: 1px solid red;
   border-collapse: collapse;
 }
-.kaart {
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.bookmark {
+list-style-type: none;
 }
+.menulijst {
+   list-style-type: none;
+   padding-left: 30px;
+   width: 100%;
+   color: black;
+   }
+.menukop {
+   margin-left:30px;
+  }
+shape {
+  background-color: red;
+  }
+.ingredient {
+  font-style: italic;
+  color: #4a4a4a;
+  margin: 2px 0 6px 30px;
+  }
+ .pizzatype {
+  margin-left: 30px;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 1.1em;
+  }
+ .price {
+ margin-right: 30px;
+ float: right;
+ font-size: 0.9em;
+ }
+ .menulijst:hover {
+  color: rgb(100,100,100);
+  }
+ .drink {
+ margin-left: 10px;
+ }
