@@ -112,6 +112,7 @@ table, th, td {
 }
 .bookmark {
 list-style-type: none;
+background: rgb(100,100,100)
 }
 .menulijst {
    list-style-type: none;
