@@ -13,6 +13,7 @@ header {
   animation-duration: 20s;
   animation-direction: normal;
   animation-iteration-count: infinite;
+  animation-timing-function: lineair;
 }
 @keyframes achtergrond {
 	0% {
@@ -110,18 +111,35 @@ table, th, td {
   border: 1px solid red;
   border-collapse: collapse;
 }
-.bookmark {
-width: 50%;
-list-style-type: none;
-border: 1px rgb(40,40,40);
-border-radius: 12px;
+.mapkaart {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 20px;
 }
-.menulijst {
+.bookmark {
+list-style-type: none;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid black;
+border-radius: 20px;
+height: 40px;
+}
+.menulijst-1, .menulijst-2, .menulijst-3 {
    list-style-type: none;
-   padding-left: 30px;
-   width: 100%;
+   max-width: 60%;
    color: black;
    }
+.menulijst-1 {
+float: left;
+}
+.menulijst-2 {
+float: center;
+}
+.menulijst-3 {
+float: right;
+}
 .menukop {
    margin-left:30px;
   }
@@ -150,3 +168,25 @@ shape {
  .drink {
  margin-left: 10px;
  }
+ .vacaturestext {
+ max-width: 50%;
+ margin-left: 30px;
+ }
+ .vacaturesplaatje {
+ margin: 20px 120px 30px 20px;
+ height: 300px;
+ float: right;
+ border-radius: 35px;
+ }
+.werken-keuken{
+margin: 150px 30px 20px 30px;
+background
+}
+.werken-restaurant{
+margin: 150px 30px 20px 30px;
+}
+.werken-kantoor{
+margin: 150px 30px 20px 30px;
+}
+
+
