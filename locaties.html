@@ -12,7 +12,7 @@
 	<li><a class="#Menu" href="menu.html">Menu</a></li>
 	<li><a class="active" href="locaties.html">Locaties</a></li>
 	<li><a class="#Vacatures" href="vacatures.html">Vacatures</a></li>
-	<li><a class="#Reserveren" href="reserveren.html">Reserveren</a></li>
+	<li><a class="#Reserveren" href="reserveren.html">Openingstijden</a></li>
 </ul>
 </header>
 <table>
@@ -32,6 +32,10 @@
 		<td>Zweinsveld</td>
 		<td>Hoofdstraat 5</td>
 	</tr>
+	<tr id="id4">
+		<td>The Shire</td>
+		<td>Bagend 1</td>
+	</tr>
 </table>
 <div class="mapkaart">
 <img class="kaart" src="kaart.jpg" usemap="#locatiekaart">
@@ -39,6 +43,7 @@
   <area shape="circle" coords="312,242,22," onmouseover="function1()" onmouseout="function4()">
   <area shape="circle" coords="596,340,22," onmouseover="function2()" onmouseout="function5()">
   <area shape="circle" coords="447,161,19," onmouseover="function3()" onmouseout="function6()">
+	<area shape="circle" coords="207,403,8" onmouseover="function7()" onmouseout="function8()">
 </map>
 <script>
 	function function1() {
@@ -70,5 +75,15 @@
 		document.getElementById('id3').style.color = 'black';
 	}
 	</script>
+	<script>
+		function function7() {
+			document.getElementById('id4').style.color = 'red';
+		}
+		</script>
+		<script>
+			function function8() {
+				document.getElementById('id4').style.color = 'black';
+			}
+			</script>
 </div>
 </body>
