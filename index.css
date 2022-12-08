@@ -261,3 +261,14 @@ margin-right: 0;
 .draaiendepizza {
   float: right;
 }
+.draaiendepizzaafbeelding {
+  width: 100px;
+  height: 100px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.draaiendepizzaafbeelding:hover {
+  width: 150px;
+  height: 150px;
+  transform: rotate(180deg);
+}
