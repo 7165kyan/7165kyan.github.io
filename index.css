@@ -260,11 +260,12 @@ margin-right: 0;
 }
 .draaiendepizza {
   float: right;
+  margin: 3px 3px 0 0;
 }
 .draaiendepizzaafbeelding {
   width: 100px;
   height: 100px;
-  transition: width 2s, height 2s, transform 2s;
+  transition: width 10s, height 10s, transform 10s;
 }
 
 .draaiendepizzaafbeelding:hover {
