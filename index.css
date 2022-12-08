@@ -266,10 +266,11 @@ margin-right: 0;
   width: 100px;
   height: 100px;
   transition: width 10s, height 10s, transform 10s;
+  margin-right: 5px;
 }
 
 .draaiendepizzaafbeelding:hover {
   width: 150px;
   height: 150px;
-  transform: rotate(180deg);
+  transform: rotate(360deg);
 }
