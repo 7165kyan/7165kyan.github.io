@@ -53,11 +53,22 @@ header {
   text-shadow: 2px 2px #FF0000;
   }
  .homepagina {
- max-width: 50%;
+ max-width: 45%;
  margin-left: 40px;
+ margin-right: 0;
  }
  .homepagina2 {
  line-height: 25px;
+ margin-right: 0;
+ }
+ .homepagina3 {
+   float:right;
+   margin: 0;
+ }
+ .pizzainoven {
+   border-radius: 25px;
+   margin: 0 30px 20px 30px;
+   float: right;
  }
  .einde {
  height: 100px;
@@ -83,7 +94,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 27px;
+  height: 25px;
 }
 li a {
   width: 60px;
@@ -119,7 +130,7 @@ table, th, td {
 }
 .bookmark {
 list-style-type: none;
-max-width: 80%;
+max-width: 40%;
 margin-left: auto;
 margin-right: auto;
 border: 1px solid black;
@@ -135,7 +146,8 @@ height: 40px;
 float: left;
 }
 .menulijst-2 {
-float: center;
+float: left;
+padding-left: 25%;
 }
 .menulijst-3 {
 float: right;
@@ -143,8 +155,8 @@ float: right;
 .menukop {
    margin-left:30px;
   }
-shape {
-  background-color: red;
+area {
+  color: red;
   }
 .ingredient {
   font-style: italic;
@@ -171,6 +183,7 @@ shape {
  .vacaturestext {
  max-width: 50%;
  margin-left: 30px;
+ padding-bottom: 210px;
  }
  .vacaturesplaatje {
  margin: 20px 120px 30px 20px;
@@ -178,15 +191,51 @@ shape {
  float: right;
  border-radius: 35px;
  }
-.werken-keuken{
-margin: 150px 30px 20px 30px;
-background
+.werkenkeuken{
+float:left;
+background:Red;
+width:20%;
+height:100px;
+margin-left: 10%;
+margin-bottom: 20px;
+border-radius: 25px;
+text-align: center;
+position: relative;
+display: inline-block;
 }
-.werken-restaurant{
-margin: 150px 30px 20px 30px;
+.werkenkeukenopties {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 100px 16px;
+  margin-bottom: 20px;
 }
-.werken-kantoor{
-margin: 150px 30px 20px 30px;
+.werkenkeuken:hover .werkenkeukenopties {
+  display: block;
+}
+.werkenrestaurant{
+float:left;
+background:red;
+width:20%;
+height:100px;
+margin-left: 10%;
+margin-bottom: 20px;
+border-radius: 25px;
+text-align: center;
+}
+.werkenkantoor{
+float:right;
+background:red;
+width:20%;
+height:100px;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 20px;
+border-radius: 25px;
+text-align: center;
 }
 .openingstijden {
 margin-left: 30px;
